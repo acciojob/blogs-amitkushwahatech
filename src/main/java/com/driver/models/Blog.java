@@ -13,7 +13,7 @@ public class Blog{
     @Id
     @GeneratedValue(strategy =GenerationType.IDENTITY)
     private int id;
-    private String title;
+    private String titl;
     private String content;
 
     @CreationTimestamp
